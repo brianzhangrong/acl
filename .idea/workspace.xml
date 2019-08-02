@@ -1,0 +1,1189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9fe53e90-4216-41e8-9007-33b1f07fa271" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth2-sso-auth-server/src/main/java/com/cjs/sso/config/AuthorizationServerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/oauth2-sso-auth-server/src/main/java/com/cjs/sso/config/AuthorizationServerConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth2-sso-auth-server/src/main/java/com/cjs/sso/config/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/oauth2-sso-auth-server/src/main/java/com/cjs/sso/config/WebSecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth2-sso-auth-server/src/main/java/com/cjs/sso/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/oauth2-sso-auth-server/src/main/java/com/cjs/sso/controller/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth2-sso-auth-server/src/main/java/com/cjs/sso/domain/MyUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/oauth2-sso-auth-server/src/main/java/com/cjs/sso/domain/MyUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth2-sso-auth-server/src/main/java/com/cjs/sso/entity/SysPermission.java" beforeDir="false" afterPath="$PROJECT_DIR$/oauth2-sso-auth-server/src/main/java/com/cjs/sso/entity/SysPermission.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth2-sso-auth-server/src/main/java/com/cjs/sso/entity/SysRole.java" beforeDir="false" afterPath="$PROJECT_DIR$/oauth2-sso-auth-server/src/main/java/com/cjs/sso/entity/SysRole.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth2-sso-auth-server/src/main/java/com/cjs/sso/entity/SysRolePermission.java" beforeDir="false" afterPath="$PROJECT_DIR$/oauth2-sso-auth-server/src/main/java/com/cjs/sso/entity/SysRolePermission.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth2-sso-auth-server/src/main/java/com/cjs/sso/entity/SysUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/oauth2-sso-auth-server/src/main/java/com/cjs/sso/entity/SysUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth2-sso-auth-server/src/main/java/com/cjs/sso/entity/SysUserRole.java" beforeDir="false" afterPath="$PROJECT_DIR$/oauth2-sso-auth-server/src/main/java/com/cjs/sso/entity/SysUserRole.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth2-sso-auth-server/src/main/java/com/cjs/sso/repository/SysPermissionRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/oauth2-sso-auth-server/src/main/java/com/cjs/sso/repository/SysPermissionRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth2-sso-auth-server/src/main/java/com/cjs/sso/repository/SysRolePermissionRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/oauth2-sso-auth-server/src/main/java/com/cjs/sso/repository/SysRolePermissionRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth2-sso-auth-server/src/main/java/com/cjs/sso/repository/SysUserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/oauth2-sso-auth-server/src/main/java/com/cjs/sso/repository/SysUserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth2-sso-auth-server/src/main/java/com/cjs/sso/repository/SysUserRoleRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/oauth2-sso-auth-server/src/main/java/com/cjs/sso/repository/SysUserRoleRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth2-sso-auth-server/src/main/java/com/cjs/sso/service/MyUserDetailsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/oauth2-sso-auth-server/src/main/java/com/cjs/sso/service/MyUserDetailsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth2-sso-auth-server/src/main/java/com/cjs/sso/service/PermissionService.java" beforeDir="false" afterPath="$PROJECT_DIR$/oauth2-sso-auth-server/src/main/java/com/cjs/sso/service/PermissionService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth2-sso-auth-server/src/main/java/com/cjs/sso/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/oauth2-sso-auth-server/src/main/java/com/cjs/sso/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth2-sso-auth-server/src/main/java/com/cjs/sso/service/impl/PermissionServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/oauth2-sso-auth-server/src/main/java/com/cjs/sso/service/impl/PermissionServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth2-sso-auth-server/src/main/java/com/cjs/sso/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/oauth2-sso-auth-server/src/main/java/com/cjs/sso/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth2-sso-auth-server/src/main/java/com/cjs/sso/vo/SysUserVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/oauth2-sso-auth-server/src/main/java/com/cjs/sso/vo/SysUserVO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth2-sso-auth-server/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/oauth2-sso-auth-server/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth2-sso-auth-server/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/oauth2-sso-auth-server/src/main/resources/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth2-sso-auth-server/src/main/resources/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/oauth2-sso-auth-server/src/main/resources/templates/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth2-sso-client-member/src/main/java/com/cjs/example/config/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/oauth2-sso-client-member/src/main/java/com/cjs/example/config/WebSecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth2-sso-client-member/src/main/java/com/cjs/example/controller/MemberController.java" beforeDir="false" afterPath="$PROJECT_DIR$/oauth2-sso-client-member/src/main/java/com/cjs/example/controller/MemberController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth2-sso-client-member/src/main/java/com/cjs/example/domain/BaseResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/oauth2-sso-client-member/src/main/java/com/cjs/example/domain/BaseResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth2-sso-client-member/src/main/java/com/cjs/example/util/ApplicationContextUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/oauth2-sso-client-member/src/main/java/com/cjs/example/util/ApplicationContextUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth2-sso-client-member/src/main/java/com/cjs/example/util/EnvironmentUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/oauth2-sso-client-member/src/main/java/com/cjs/example/util/EnvironmentUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth2-sso-client-order/src/main/java/com/cjs/example/config/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/oauth2-sso-client-order/src/main/java/com/cjs/example/config/WebSecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth2-sso-client-order/src/main/java/com/cjs/example/controller/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/oauth2-sso-client-order/src/main/java/com/cjs/example/controller/OrderController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth2-sso-client-order/src/main/java/com/cjs/example/domain/BaseResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/oauth2-sso-client-order/src/main/java/com/cjs/example/domain/BaseResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth2-sso-client-order/src/main/java/com/cjs/example/util/ApplicationContextUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/oauth2-sso-client-order/src/main/java/com/cjs/example/util/ApplicationContextUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth2-sso-client-order/src/main/java/com/cjs/example/util/EnvironmentUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/oauth2-sso-client-order/src/main/java/com/cjs/example/util/EnvironmentUtils.java" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/oauth2-sso-auth-server/target/" />
+    <ignored path="$PROJECT_DIR$/oauth2-sso-client-order/target/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/oauth2-sso-client-member/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-675489940">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="html" value="5" />
+          <entry key="java" value="40" />
+          <entry key="sql" value="1" />
+          <entry key="svg" value="1" />
+          <entry key="xml" value="1" />
+          <entry key="yml" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="HTML" value="5" />
+          <entry key="JAVA" value="40" />
+          <entry key="SQL" value="1" />
+          <entry key="SVG" value="1" />
+          <entry key="XML" value="1" />
+          <entry key="YAML" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="html" value="18" />
+          <entry key="java" value="58" />
+          <entry key="yml" value="65" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="HTML" value="18" />
+          <entry key="JAVA" value="58" />
+          <entry key="YAML" value="65" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/oauth2-sso-client-member/src/main/java/com/cjs/example/util/EnvironmentUtils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="7" column="3" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/oauth2-sso-client-member/src/main/java/com/cjs/example/Oauth2SsoClientMemberApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="20" column="28" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/oauth2-sso-client-member/src/main/resources/templates/member/list.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-182" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/oauth2-sso-client-order/src/main/java/com/cjs/example/config/WebSecurityConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="8" column="3" lean-forward="true" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/oauth2-sso-client-order/src/main/java/com/cjs/example/controller/OrderController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="7" column="3" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/oauth2-sso-client-order/src/main/java/com/cjs/example/domain/BaseResponse.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="7" column="3" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/oauth2-sso-client-order/src/main/java/com/cjs/example/util/ApplicationContextUtils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="8" column="3" lean-forward="true" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/oauth2-sso-client-order/src/main/java/com/cjs/example/util/EnvironmentUtils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="7" column="3" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/oauth2-sso-client-order/src/main/java/com/cjs/example/Oauth2SsoClientOrderApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="9" column="44" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/oauth2-sso-client-order/src/test/java/com/cjs/example/Oauth2SsoClientOrderApplicationTests.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="projectSyncType">
+      <map>
+        <entry key="$PROJECT_DIR$/../../fly/virtualstick" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../zuul/zuul" value="PREVIEW" />
+      </map>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/oauth2-sso-auth-server/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/oauth2-sso-auth-server/src/main/java/com/cjs/sso/config/AuthorizationServerConfig.java" />
+        <option value="$PROJECT_DIR$/oauth2-sso-auth-server/src/main/java/com/cjs/sso/config/WebSecurityConfig.java" />
+        <option value="$PROJECT_DIR$/oauth2-sso-auth-server/src/main/java/com/cjs/sso/controller/LoginController.java" />
+        <option value="$PROJECT_DIR$/oauth2-sso-auth-server/src/main/java/com/cjs/sso/domain/MyUser.java" />
+        <option value="$PROJECT_DIR$/oauth2-sso-auth-server/src/main/java/com/cjs/sso/entity/SysPermission.java" />
+        <option value="$PROJECT_DIR$/oauth2-sso-auth-server/src/main/java/com/cjs/sso/entity/SysRole.java" />
+        <option value="$PROJECT_DIR$/oauth2-sso-auth-server/src/main/java/com/cjs/sso/entity/SysRolePermission.java" />
+        <option value="$PROJECT_DIR$/oauth2-sso-auth-server/src/main/java/com/cjs/sso/entity/SysUser.java" />
+        <option value="$PROJECT_DIR$/oauth2-sso-auth-server/src/main/java/com/cjs/sso/entity/SysUserRole.java" />
+        <option value="$PROJECT_DIR$/oauth2-sso-auth-server/src/main/java/com/cjs/sso/repository/SysPermissionRepository.java" />
+        <option value="$PROJECT_DIR$/oauth2-sso-auth-server/src/main/java/com/cjs/sso/repository/SysRolePermissionRepository.java" />
+        <option value="$PROJECT_DIR$/oauth2-sso-auth-server/src/main/java/com/cjs/sso/repository/SysUserRepository.java" />
+        <option value="$PROJECT_DIR$/oauth2-sso-auth-server/src/main/java/com/cjs/sso/repository/SysUserRoleRepository.java" />
+        <option value="$PROJECT_DIR$/oauth2-sso-auth-server/src/main/java/com/cjs/sso/service/impl/PermissionServiceImpl.java" />
+        <option value="$PROJECT_DIR$/oauth2-sso-auth-server/src/main/java/com/cjs/sso/service/impl/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/oauth2-sso-auth-server/src/main/java/com/cjs/sso/service/MyUserDetailsService.java" />
+        <option value="$PROJECT_DIR$/oauth2-sso-auth-server/src/main/java/com/cjs/sso/service/PermissionService.java" />
+        <option value="$PROJECT_DIR$/oauth2-sso-auth-server/src/main/java/com/cjs/sso/service/UserService.java" />
+        <option value="$PROJECT_DIR$/oauth2-sso-auth-server/src/main/java/com/cjs/sso/vo/SysUserVO.java" />
+        <option value="$PROJECT_DIR$/oauth2-sso-auth-server/src/main/resources/templates/login.html" />
+        <option value="$PROJECT_DIR$/oauth2-sso-auth-server/src/main/resources/templates/index.html" />
+        <option value="$PROJECT_DIR$/oauth2-sso-client-member/src/main/java/com/cjs/example/config/WebSecurityConfig.java" />
+        <option value="$PROJECT_DIR$/oauth2-sso-client-member/src/main/java/com/cjs/example/controller/MemberController.java" />
+        <option value="$PROJECT_DIR$/oauth2-sso-client-member/src/main/java/com/cjs/example/domain/BaseResponse.java" />
+        <option value="$PROJECT_DIR$/oauth2-sso-client-member/src/main/java/com/cjs/example/util/ApplicationContextUtils.java" />
+        <option value="$PROJECT_DIR$/oauth2-sso-client-member/src/main/java/com/cjs/example/util/EnvironmentUtils.java" />
+        <option value="$PROJECT_DIR$/oauth2-sso-client-order/src/main/java/com/cjs/example/config/WebSecurityConfig.java" />
+        <option value="$PROJECT_DIR$/oauth2-sso-client-order/src/main/java/com/cjs/example/controller/OrderController.java" />
+        <option value="$PROJECT_DIR$/oauth2-sso-client-order/src/main/java/com/cjs/example/domain/BaseResponse.java" />
+        <option value="$PROJECT_DIR$/oauth2-sso-client-order/src/main/java/com/cjs/example/util/ApplicationContextUtils.java" />
+        <option value="$PROJECT_DIR$/oauth2-sso-client-order/src/main/java/com/cjs/example/util/EnvironmentUtils.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="userSettingsFile" value="$USER_HOME$/.m2/settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+        <option name="lookForNested" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="48" />
+    <option name="y" value="23" />
+    <option name="width" value="1632" />
+    <option name="height" value="1027" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="AndroidView" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="cjs-oauth2-sso-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cjs-oauth2-sso-demo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cjs-oauth2-sso-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cjs-oauth2-sso-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="oauth2-sso-auth-server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cjs-oauth2-sso-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cjs-oauth2-sso-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="oauth2-sso-auth-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cjs-oauth2-sso-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cjs-oauth2-sso-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="oauth2-sso-auth-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cjs-oauth2-sso-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cjs-oauth2-sso-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="oauth2-sso-auth-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cjs-oauth2-sso-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cjs-oauth2-sso-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="oauth2-sso-auth-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="sso" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cjs-oauth2-sso-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cjs-oauth2-sso-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="oauth2-sso-auth-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="sso" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cjs-oauth2-sso-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cjs-oauth2-sso-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="oauth2-sso-auth-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="sso" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cjs-oauth2-sso-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cjs-oauth2-sso-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="oauth2-sso-auth-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="sso" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cjs-oauth2-sso-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cjs-oauth2-sso-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="oauth2-sso-auth-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="sso" type="462c0819:PsiDirectoryNode" />
+              <item name="entity" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cjs-oauth2-sso-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cjs-oauth2-sso-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="oauth2-sso-auth-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="sso" type="462c0819:PsiDirectoryNode" />
+              <item name="repository" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cjs-oauth2-sso-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cjs-oauth2-sso-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="oauth2-sso-auth-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="sso" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cjs-oauth2-sso-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cjs-oauth2-sso-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="oauth2-sso-auth-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="sso" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cjs-oauth2-sso-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cjs-oauth2-sso-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="oauth2-sso-auth-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="sso" type="462c0819:PsiDirectoryNode" />
+              <item name="vo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cjs-oauth2-sso-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cjs-oauth2-sso-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="oauth2-sso-auth-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cjs-oauth2-sso-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cjs-oauth2-sso-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="oauth2-sso-auth-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cjs-oauth2-sso-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cjs-oauth2-sso-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="oauth2-sso-auth-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="dashboard" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cjs-oauth2-sso-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cjs-oauth2-sso-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="oauth2-sso-auth-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cjs-oauth2-sso-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cjs-oauth2-sso-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="oauth2-sso-client-member" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cjs-oauth2-sso-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cjs-oauth2-sso-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="oauth2-sso-client-member" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cjs-oauth2-sso-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cjs-oauth2-sso-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="oauth2-sso-client-member" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cjs-oauth2-sso-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cjs-oauth2-sso-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="oauth2-sso-client-member" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cjs-oauth2-sso-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cjs-oauth2-sso-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="oauth2-sso-client-member" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cjs-oauth2-sso-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cjs-oauth2-sso-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="oauth2-sso-client-member" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cjs-oauth2-sso-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cjs-oauth2-sso-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="oauth2-sso-client-member" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cjs-oauth2-sso-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cjs-oauth2-sso-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="oauth2-sso-client-member" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cjs-oauth2-sso-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cjs-oauth2-sso-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="oauth2-sso-client-member" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cjs-oauth2-sso-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cjs-oauth2-sso-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="oauth2-sso-client-member" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cjs-oauth2-sso-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cjs-oauth2-sso-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="oauth2-sso-client-member" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="bootstrap" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cjs-oauth2-sso-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cjs-oauth2-sso-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="oauth2-sso-client-member" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="bootstrap" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cjs-oauth2-sso-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cjs-oauth2-sso-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="oauth2-sso-client-member" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="bootstrap" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cjs-oauth2-sso-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cjs-oauth2-sso-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="oauth2-sso-client-member" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="member" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cjs-oauth2-sso-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cjs-oauth2-sso-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="oauth2-sso-client-order" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cjs-oauth2-sso-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cjs-oauth2-sso-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="oauth2-sso-client-order" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cjs-oauth2-sso-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cjs-oauth2-sso-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="oauth2-sso-client-order" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cjs-oauth2-sso-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cjs-oauth2-sso-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="oauth2-sso-client-order" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cjs-oauth2-sso-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cjs-oauth2-sso-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="oauth2-sso-client-order" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cjs-oauth2-sso-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cjs-oauth2-sso-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="oauth2-sso-client-order" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cjs-oauth2-sso-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cjs-oauth2-sso-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="oauth2-sso-client-order" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cjs-oauth2-sso-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cjs-oauth2-sso-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="oauth2-sso-client-order" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cjs-oauth2-sso-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cjs-oauth2-sso-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="oauth2-sso-client-order" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cjs-oauth2-sso-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cjs-oauth2-sso-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="oauth2-sso-client-order" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cjs-oauth2-sso-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cjs-oauth2-sso-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="oauth2-sso-client-order" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="order" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cjs-oauth2-sso-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cjs-oauth2-sso-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="oauth2-sso-client-order" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cjs-oauth2-sso-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cjs-oauth2-sso-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="oauth2-sso-client-order" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cjs-oauth2-sso-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cjs-oauth2-sso-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="oauth2-sso-client-order" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1564760278451" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.externalDependencies" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.Oauth2SsoClientOrderApplication">
+    <configuration name="Oauth2SsoClientMemberApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cjs.example.Oauth2SsoClientMemberApplication" />
+      <module name="oauth2-sso-client-member" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cjs.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Oauth2SsoAuthServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="oauth2-sso-auth-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cjs.sso.Oauth2SsoAuthServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Oauth2SsoClientMemberApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="oauth2-sso-client-member" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cjs.example.Oauth2SsoClientMemberApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Oauth2SsoClientOrderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="oauth2-sso-client-order" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cjs.example.Oauth2SsoClientOrderApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Nosetests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_regexPattern" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Twisted Trial">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="py.test">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.Oauth2SsoAuthServerApplication" />
+      <item itemvalue="Spring Boot.Oauth2SsoClientOrderApplication" />
+      <item itemvalue="Spring Boot.Oauth2SsoClientMemberApplication" />
+      <item itemvalue="Application.Oauth2SsoClientMemberApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Oauth2SsoClientMemberApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9fe53e90-4216-41e8-9007-33b1f07fa271" name="Default Changelist" comment="" />
+      <created>1564748881115</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1564748881115</updated>
+      <workItem from="1564748884787" duration="2275000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="2275000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="48" y="23" width="1632" height="1027" extended-state="6" />
+    <layout>
+      <window_info id="Designer" />
+      <window_info id="Image Layers" />
+      <window_info id="Capture Tool" />
+      <window_info id="UI Designer" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info id="Web" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24968554" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Spring" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" weight="0.32941177" />
+      <window_info anchor="bottom" id="Tail" />
+      <window_info anchor="bottom" id="Java Enterprise" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32941177" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Maven Projects" />
+      <window_info anchor="right" id="SciView" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Bean Validation" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/oauth2-sso-auth-server/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oauth2-sso-client-member/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oauth2-sso-client-order/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oauth2-sso-client-order/src/main/resources/templates/order/list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="7" lean-forward="true" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oauth2-sso-auth-server/src/main/resources/permission.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="71" column="79" selection-start-line="71" selection-start-column="68" selection-end-line="71" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oauth2-sso-auth-server/src/main/java/com/cjs/sso/config/AuthorizationServerConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="20" column="3" lean-forward="true" selection-start-line="20" selection-start-column="3" selection-end-line="20" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oauth2-sso-auth-server/src/main/java/com/cjs/sso/config/WebSecurityConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="15" column="3" lean-forward="true" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oauth2-sso-auth-server/src/main/java/com/cjs/sso/controller/LoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="6" column="3" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oauth2-sso-auth-server/src/main/java/com/cjs/sso/domain/MyUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="10" column="3" lean-forward="true" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oauth2-sso-auth-server/src/main/java/com/cjs/sso/entity/SysPermission.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="9" column="3" lean-forward="true" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oauth2-sso-auth-server/src/main/java/com/cjs/sso/entity/SysRole.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="9" column="3" lean-forward="true" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oauth2-sso-auth-server/src/main/java/com/cjs/sso/entity/SysRolePermission.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="8" column="3" lean-forward="true" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oauth2-sso-auth-server/src/main/java/com/cjs/sso/entity/SysUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="9" column="3" lean-forward="true" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oauth2-sso-auth-server/src/main/java/com/cjs/sso/entity/SysUserRole.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="8" column="3" lean-forward="true" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oauth2-sso-auth-server/src/main/java/com/cjs/sso/repository/SysPermissionRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="11" column="3" lean-forward="true" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oauth2-sso-auth-server/src/main/java/com/cjs/sso/repository/SysRolePermissionRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="11" column="3" lean-forward="true" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oauth2-sso-auth-server/src/main/java/com/cjs/sso/repository/SysUserRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="7" column="3" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oauth2-sso-auth-server/src/main/java/com/cjs/sso/repository/SysUserRoleRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="9" column="3" lean-forward="true" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oauth2-sso-auth-server/src/main/java/com/cjs/sso/service/impl/PermissionServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="17" column="3" lean-forward="true" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oauth2-sso-auth-server/src/main/java/com/cjs/sso/service/impl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="9" column="3" lean-forward="true" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oauth2-sso-auth-server/src/main/java/com/cjs/sso/service/MyUserDetailsService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="20" column="3" lean-forward="true" selection-start-line="20" selection-start-column="3" selection-end-line="20" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oauth2-sso-auth-server/src/main/java/com/cjs/sso/service/PermissionService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="7" column="3" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oauth2-sso-auth-server/src/main/java/com/cjs/sso/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="3" lean-forward="true" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oauth2-sso-auth-server/src/main/java/com/cjs/sso/vo/SysUserVO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="8" column="3" lean-forward="true" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oauth2-sso-auth-server/src/main/java/com/cjs/sso/Oauth2SsoAuthServerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oauth2-sso-auth-server/src/main/resources/static/images/dashboard/circle.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oauth2-sso-auth-server/src/main/resources/templates/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="51" selection-start-line="21" selection-start-column="51" selection-end-line="21" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oauth2-sso-auth-server/src/main/resources/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="258">
+          <caret line="43" selection-start-line="43" selection-end-line="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oauth2-sso-auth-server/src/main/resources/logback.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oauth2-sso-client-member/src/main/java/com/cjs/example/config/WebSecurityConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="12" column="3" lean-forward="true" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oauth2-sso-client-member/src/main/java/com/cjs/example/controller/MemberController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="13" column="3" lean-forward="true" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oauth2-sso-client-member/src/main/java/com/cjs/example/domain/BaseResponse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="7" column="3" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oauth2-sso-client-member/src/main/java/com/cjs/example/util/ApplicationContextUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="8" column="3" lean-forward="true" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oauth2-sso-client-member/src/main/java/com/cjs/example/util/EnvironmentUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="7" column="3" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oauth2-sso-client-member/src/main/java/com/cjs/example/Oauth2SsoClientMemberApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="20" column="28" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oauth2-sso-client-member/src/main/resources/templates/member/list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-182" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oauth2-sso-client-order/src/main/java/com/cjs/example/config/WebSecurityConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="8" column="3" lean-forward="true" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oauth2-sso-client-order/src/main/java/com/cjs/example/controller/OrderController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="7" column="3" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oauth2-sso-client-order/src/main/java/com/cjs/example/domain/BaseResponse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="7" column="3" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oauth2-sso-client-order/src/main/java/com/cjs/example/util/ApplicationContextUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="8" column="3" lean-forward="true" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oauth2-sso-client-order/src/main/java/com/cjs/example/util/EnvironmentUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="7" column="3" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oauth2-sso-client-order/src/main/java/com/cjs/example/Oauth2SsoClientOrderApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="9" column="44" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oauth2-sso-client-order/src/test/java/com/cjs/example/Oauth2SsoClientOrderApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
