@@ -61,7 +61,7 @@ public class AuthorizationServerConfig extends AuthorizationServerConfigurerAdap
     @Bean
     public JwtAccessTokenConverter jwtAccessTokenConverter() {
         JwtAccessTokenConverter jwtAccessTokenConverter = new JwtAccessTokenConverter();
-        jwtAccessTokenConverter.setSigningKey("cjs");   //  Sets the JWT signing key
+        jwtAccessTokenConverter.setSigningKey("com.ihomefnt.acl");   //  Sets the JWT signing key
         return jwtAccessTokenConverter;
     }
 

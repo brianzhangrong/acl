@@ -12,5 +12,9 @@ spring:
     host: redis-01.db.sit.ihomefnt.org
     password: aijia1234567
     port: 6379
+  security:
+    user:
+      name: admin
+      password: admin
 server:
   port: 8080

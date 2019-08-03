@@ -12,3 +12,5 @@ security:
     resource:
       jwt:
         key-uri: http://localhost:8080/oauth/token_key
+    sso:
+      login-path: /success
